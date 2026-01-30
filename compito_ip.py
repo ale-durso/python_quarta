@@ -7,8 +7,9 @@ ottetti = []
 for s in ottetti_str:
     ottetti.append(int(s))
 print(ottetti)
-for k in range(4):
-    print(bin(ottetti[k])[2:])
-    while len(ottetti) < 8:
-        ottetti[k] = '0' + ottetti[k]
+for k in ottetti:
+    n_bin = bin(k)[2:]
+    while len(n_bin) < 8:
+        n_bin = '0' + n_bin
+    print(n_bin)
     

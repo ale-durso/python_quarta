@@ -1,0 +1,23 @@
+# Pari e dispari
+
+
+def pari_dispari(numeri):
+    pari = []
+    dispari = []
+
+    for n in numeri:
+        if n % 2 == 0:
+            pari.append(n)
+        else:
+            dispari.append(n)
+    
+    return pari, dispari
+
+def main():
+    numeri = [3, 8, 12, 7, 2, 15, 20, 9, 4]
+    pari, dispari = pari_dispari(numeri)
+
+    print(f"I numeri pari sono: {pari}, quelli dispari: {dispari}")
+
+if __name__ == "__main__":
+    main()

@@ -4,6 +4,6 @@ print(ottetti_str)
 
 ottetti = [] #lista vuota
 for s in ottetti_str:
-    ottetti.append(int(ottetti))
+    ottetti.append(int(s))
 print(ottetti)
-print(bin(ottetti[3]))
+print(bin(ottetti[3])[2:])

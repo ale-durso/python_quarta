@@ -21,7 +21,7 @@ def media(lista):
 
 def main():
     print(help(prima_lettera_maiuscola))
-    nome = input("Dammi un nome")
+    nome = input("Dammi un nome->")
     print(prima_lettera_maiuscola(nome))
     voti = [7.8,6.8,9.7]
     m,n = media(voti)
